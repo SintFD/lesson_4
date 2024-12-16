@@ -1,0 +1,113 @@
+/* .container {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  flex-basis: 200px;
+  padding: 10px;
+}
+
+.red {
+  background-color: red;
+  flex-grow: 1;
+}
+
+.green {
+  background-color: green;
+  flex-grow: 2;
+}
+
+.blue {
+  background-color: blue;
+  flex-shrink: 2;
+}
+
+.yellow {
+  background-color: yellow;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: brown;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-cards {
+  display: flex;
+  flex-direction: column;
+
+  /* flex-basis: 100%; */
+}
+
+.first-card {
+  border-radius: 25px;
+
+  background: linear-gradient(
+    135.29deg,
+    rgb(76, 73, 237) 2.349%,
+    rgb(10, 6, 244) 101.077%
+  );
+  /* flex-basis: 350px; */
+  width: 350px;
+  height: 235px;
+}
+
+.second-card {
+  border: 1px solid rgb(223, 234, 242);
+  border-radius: 25px;
+  background: rgb(255, 255, 255);
+  width: 350px;
+  height: 235px;
+}
+
+.cards-face {
+  display: flex;
+  gap: 30px;
+}
+
+.cards-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.first-section {
+  display: flex;
+  gap: 30px;
+}
+
+.transaction-list {
+  border: 1px solid rgb(223, 234, 242);
+  border-radius: 25px;
+  background: rgb(255, 255, 255);
+  width: 350px;
+  height: 235px;
+}
+
+.transaction-title {
+  margin-bottom: 20px;
+}
